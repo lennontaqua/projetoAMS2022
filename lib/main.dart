@@ -21,7 +21,7 @@ class MyApp extends StatelessWidget {
 }
 
 class MyHomePage extends StatelessWidget {
-  final String title;
+  final String titulo;
   const MyHomePage({Key? key, required this.title}) : super(key: key);
 
   @override
@@ -33,7 +33,8 @@ class MyHomePage extends StatelessWidget {
       ),
       body: Center(
         child: Text(
-          'Hello, World!',
+          'Olá, Mundo!',
+          
         ),
       ),
     );
